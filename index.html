@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#320d0d">
+  <meta name="description" content="Апрель — творческий загородный дом в Тиликтино. Домики профессий, искусство, баня, ресторан и весна круглый год.">
+  <title>Апрель — творческий загородный дом</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Апрель — на главную">
+      <span class="brand-logo-frame" aria-hidden="true">
+        <img class="brand-logo brand-logo--cream" src="assets/logos/logo-line-cream.svg" alt="">
+        <img class="brand-logo brand-logo--dark" src="assets/logos/logo-line-dark.svg" alt="">
+      </span>
+      <span class="brand-descriptor">дом художественного<br>отдыха</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#about">Концепция</a>
+      <a href="#stay">Проживание</a>
+      <a href="#program">Афиша</a>
+      <a href="#spaces">Пространства</a>
+      <a href="#map">Карта</a>
+    </nav>
+
+    <button class="header-booking js-open-interest" type="button">Узнать об открытии <span>↗</span></button>
+    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <nav aria-label="Мобильная навигация">
+      <a href="#about">Концепция</a>
+      <a href="#stay">Проживание</a>
+      <a href="#program">Афиша</a>
+      <a href="#spaces">Пространства</a>
+      <a href="#map">Карта</a>
+    </nav>
+    <div class="mobile-menu-foot">
+      <span>Тиликтино, Подмосковье</span>
+      <button class="js-open-interest" type="button">Узнать об открытии</button>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="sr-only">Апрель — творческий загородный дом в Тиликтино</h1>
+      <div class="hero-meta">
+        <span>01</span>
+        <span>Тиликтино, Подмосковье</span>
+        <span>56°20′ с. ш.</span>
+      </div>
+
+      <div class="hero-mobile-lockup" aria-hidden="true">
+        <span>творческий загородный дом</span>
+        <span class="hero-mobile-logo"><img src="assets/logos/logo-line-cream.svg" alt=""></span>
+        <span>Тиликтино, Подмосковье</span>
+      </div>
+
+      <form class="quick-booking" id="quick-interest-form">
+        <label>
+          <span>Ваша почта</span>
+          <input type="email" name="email" placeholder="name@example.com" autocomplete="email" required>
+        </label>
+        <label>
+          <span>Что вам интересно</span>
+          <select name="interest" aria-label="Интерес к проекту">
+            <option value="opening">Приехать на открытие</option>
+            <option value="stay">Домики и проживание</option>
+            <option value="events">События и программа</option>
+            <option value="news">Новости проекта</option>
+          </select>
+        </label>
+        <button type="submit">Оставить почту <span>→</span></button>
+      </form>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div>
+        <span>Весна круглый год</span><i>✳</i>
+        <span>Отель как хэппенинг</span><i>✳</i>
+        <span>Домики профессий</span><i>✳</i>
+        <span>Поменяйтесь планами</span><i>✳</i>
+        <span>Искусство без расписания</span><i>✳</i>
+        <span>Весна круглый год</span><i>✳</i>
+        <span>Приезжайте с друзьями</span><i>✳</i>
+        <span>Домики профессий</span><i>✳</i>
+      </div>
+    </div>
+
+    <section class="manifesto section" id="about">
+      <div class="section-index">02 / Идея</div>
+      <div class="manifesto-grid">
+        <h2 class="reveal">Отель как<br><em>хэппенинг</em></h2>
+        <div class="manifesto-copy reveal">
+          <p class="lead">«Апрель» — среда, которая стимулирует. Здесь отдых становится способом смотреть внимательнее, слышать больше и снова придумывать.</p>
+          <p>Мы собрали загородный дом вокруг искусства, природы и совместного опыта. Можно приехать с друзьями, поменяться планами или провести выходные в одиночестве.</p>
+        </div>
+        <div class="manifesto-note reveal">
+          <span>Инструкция №12</span>
+          <p>Наиболее легко забывается самая важная вещь.</p>
+        </div>
+      </div>
+
+      <div class="facts reveal">
+        <article><strong>14</strong><span>гектаров<br>территории</span></article>
+        <article><strong>12</strong><span>домиков<br>и профессий</span></article>
+        <article><strong>44</strong><span>номера разных<br>категорий</span></article>
+        <article><strong>01</strong><span>общее состояние:<br>любопытство</span></article>
+      </div>
+    </section>
+
+    <section class="stay section" id="stay">
+      <div class="section-head">
+        <div class="section-index">03 / Проживание</div>
+        <h2>Выберите<br>свою роль</h2>
+        <p>Каждый дом — не декорация профессии, а повод прожить её ритм.</p>
+      </div>
+
+      <div class="stay-grid">
+        <article class="stay-card stay-card--yellow reveal">
+          <div class="stay-number">01–09</div>
+          <div class="stay-image"><img src="assets/workshop-wide.jpg" alt="Светлая творческая мастерская"></div>
+          <div class="stay-body">
+            <span class="eyebrow">Для двоих · до 35 м²</span>
+            <h3>Домики<br>профессий</h3>
+            <p>Художник, писатель, музыкант, инженер, актёр и другие способы провести выходные.</p>
+            <button class="text-link js-open-interest" data-interest="stay" type="button">Следить за открытием <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="stay-card stay-card--blue reveal">
+          <div class="stay-number">10–12</div>
+          <div class="stay-image"><img src="assets/lobby.jpg" alt="Интерьер с арочными проёмами и деревянными поверхностями"></div>
+          <div class="stay-body">
+            <span class="eyebrow">Для семьи · до 100 м²</span>
+            <h3>Семейные<br>дома</h3>
+            <p>Кухня, веранда и пространство, в котором у каждого есть своя комната и общий вечер.</p>
+            <button class="text-link js-open-interest" data-interest="stay" type="button">Следить за открытием <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="stay-card stay-card--green reveal">
+          <div class="stay-number">13–44</div>
+          <div class="stay-image"><img src="assets/library.jpg" alt="Интерьер библиотеки с книжными стеллажами"></div>
+          <div class="stay-body">
+            <span class="eyebrow">Стандарт · Супериор · Люкс</span>
+            <h3>Номера<br>в корпусах</h3>
+            <p>Светлые комнаты, лес за окном и доступ ко всей программе дома.</p>
+            <button class="text-link js-open-interest" data-interest="stay" type="button">Следить за открытием <span>↗</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="program section" id="program">
+      <div class="program-top">
+        <div>
+          <div class="section-index">04 / Афиша</div>
+          <h2>Ближайшие<br>события</h2>
+        </div>
+        <div class="program-legend">
+          <span>12–19 октября</span>
+          <span>неделя №42</span>
+        </div>
+      </div>
+
+      <div class="event-list">
+        <article class="event reveal">
+          <time datetime="2026-10-12">12.10</time>
+          <div><span>Лес / прогулка</span><h3>День полевых записей</h3></div>
+          <p>Собираем звуки, следы и короткие наблюдения. Материалы появятся в общей газете дома.</p>
+          <button type="button" aria-label="Подробнее о Дне полевых записей">↗</button>
+        </article>
+        <article class="event reveal">
+          <time datetime="2026-10-14">14.10</time>
+          <div><span>Мастерская</span><h3>Воркшоп по гербарию</h3></div>
+          <p>Сбор растений на участке, сушка, подписи и оформление в альбом или раму.</p>
+          <button type="button" aria-label="Подробнее о воркшопе по гербарию">↗</button>
+        </article>
+        <article class="event reveal">
+          <time datetime="2026-10-17">17.10</time>
+          <div><span>Дом свободы</span><h3>Квартирник в доме Орнитолога</h3></div>
+          <p>Камерный музыкальный вечер. Количество мест ограничено размером гостиной.</p>
+          <button type="button" aria-label="Подробнее о квартирнике">↗</button>
+        </article>
+      </div>
+
+      <div class="program-cta reveal">
+        <span>Программа меняется каждую неделю</span>
+        <a href="#interest">Следить за программой <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="spaces section" id="spaces">
+      <div class="section-head section-head--light">
+        <div class="section-index">05 / Пространства</div>
+        <h2>Весь дом —<br>часть программы</h2>
+        <p>Утром — тихо и с видом. Вечером — громче и интереснее.</p>
+      </div>
+
+      <div class="spaces-gallery" aria-label="Пространства отеля">
+        <figure class="space space--wide reveal">
+          <img src="assets/restaurant-wide.jpg" alt="Светлый зал ресторана с арочными окнами">
+          <figcaption><span>01</span><strong>Ресторан</strong><em>08:00–23:00</em></figcaption>
+        </figure>
+        <figure class="space reveal">
+          <img src="assets/library.jpg" alt="Библиотека с длинными книжными стеллажами">
+          <figcaption><span>02</span><strong>Библиотека</strong><em>книги можно уносить</em></figcaption>
+        </figure>
+        <figure class="space reveal">
+          <img src="assets/bar.jpg" alt="Камерный бар в тёмных бордовых тонах">
+          <figcaption><span>03</span><strong>Бар</strong><em>до последнего разговора</em></figcaption>
+        </figure>
+        <figure class="space space--wide reveal">
+          <img src="assets/workshop.jpg" alt="Мастерская для занятий и встреч">
+          <figcaption><span>04</span><strong>Мастерские</strong><em>работать руками</em></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="map-section section" id="map">
+      <div class="map-copy">
+        <div class="section-index">06 / Территория</div>
+        <h2>Карта, на которой<br>не всё отмечено</h2>
+        <p>Мы специально оставили арт-объекты без меток, чтобы их можно было найти исследовательским путём.</p>
+        <ul>
+          <li><span>↑</span> Лесные кабинеты</li>
+          <li><span>→</span> Домики профессий</li>
+          <li><span>←</span> Ресторан и Дом свободы</li>
+        </ul>
+        <a class="route-link" href="https://yandex.ru/maps/?text=%D0%A2%D0%B8%D0%BB%D0%B8%D0%BA%D1%82%D0%B8%D0%BD%D0%BE%2074%D0%B0" target="_blank" rel="noopener">Построить маршрут <span>↗</span></a>
+      </div>
+      <div class="map-image reveal">
+        <img src="assets/territory-map.png" alt="Фирменная карта территории отеля Апрель">
+        <button class="map-pin map-pin--1" type="button" aria-label="Домики профессий"><span>12</span></button>
+        <button class="map-pin map-pin--2" type="button" aria-label="Ресторан"><span>Р</span></button>
+        <button class="map-pin map-pin--3" type="button" aria-label="Дом свободы"><span>Д</span></button>
+      </div>
+    </section>
+
+    <section class="booking-section section" id="interest">
+      <div class="booking-art">
+        <img src="assets/welcome-set.png" alt="Welcome-набор гостя в фирменном стиле Апреля">
+      </div>
+      <div class="booking-copy">
+        <div class="section-index">07 / До встречи</div>
+        <h2>Весна<br><em>ещё впереди</em></h2>
+        <p>До открытия почти два года. Оставьте почту — будем изредка рассказывать, как появляется «Апрель», и первыми позовём в гости.</p>
+        <button class="primary-button js-open-interest" type="button">Следить за проектом <span>→</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="footer-logo-frame" aria-hidden="true">
+        <img src="assets/logos/logo-line-cream.svg" alt="">
+      </span>
+      <p>Дом художественного отдыха</p>
+    </div>
+    <div class="footer-columns">
+      <div><span>Адрес</span><p>Московская область,<br>Клинский район,<br>д. Тиликтино, 74а</p></div>
+      <div><span>Контакты</span><p><a href="mailto:hello@april-hotel.com">hello@april-hotel.com</a><br><a href="tel:+74950000000">+7 495 000-00-00</a></p></div>
+      <div><span>Соцсети</span><p><a href="#">Telegram ↗</a><br><a href="#">VK ↗</a></p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Апрель</span><span>Демо-концепция сайта</span><a href="#top">Наверх ↑</a></div>
+  </footer>
+
+  <dialog class="booking-dialog" id="interest-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <div class="dialog-intro">
+      <span>Лист ожидания</span>
+      <h2 id="dialog-title">Узнать<br>об открытии</h2>
+      <p>Без бронирования и обязательств. Иногда будем присылать новости проекта и первыми сообщим дату открытия.</p>
+    </div>
+    <form class="booking-form" id="interest-form">
+      <label><span>Электронная почта</span><input type="email" name="email" placeholder="name@example.com" autocomplete="email" required></label>
+      <label>
+        <span>Что вам интереснее всего</span>
+        <select name="interest" required>
+          <option value="opening">Приехать на открытие</option>
+          <option value="stay">Домики и проживание</option>
+          <option value="events">События и программа</option>
+          <option value="news">Просто следить за проектом</option>
+        </select>
+      </label>
+      <p class="form-status" aria-live="polite"></p>
+      <button class="dialog-submit" type="submit">Записаться в лист ожидания <span>→</span></button>
+      <small>Оставляя почту, вы соглашаетесь получать редкие новости проекта. Отписаться можно будет в любой момент.</small>
+    </form>
+    <div class="dialog-success" hidden>
+      <span>Почта записана</span>
+      <h2>Будем<br>держать в курсе</h2>
+      <p>Спасибо за интерес к «Апрелю». Напишем, когда у проекта появятся важные новости и дата открытия.</p>
+      <button type="button" class="dialog-done">Хорошо</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
